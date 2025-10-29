@@ -60,7 +60,7 @@ const modules: ModuleCardProps[] = [
     route: "/clima", 
     variant: "accent",
     status: "Seca moderada",
-    iconClassName: "w-12 h-12 rounded-xl flex items-center justify-center shadow-lg bg-white text-blue-500 border-2 border-blue-500",
+    iconClassName: "w-12 h-12 rounded-xl flex items-center justify-center shadow-lg bg-blue-500 text-white",
     stats: [
       { label: "Precipitação/Mês", value: "45mm", trend: "-25%" },
       { label: "Reservatórios", value: "68%" },
@@ -72,7 +72,7 @@ const modules: ModuleCardProps[] = [
     description: "Controle de fertilizantes, sementes e produtos veterinários",
     icon: Package,
     route: "/insumos",
-    iconClassName: "w-12 h-12 rounded-xl flex items-center justify-center shadow-lg bg-white text-orange-500 border-2 border-orange-500",
+    iconClassName: "w-12 h-12 rounded-xl flex items-center justify-center shadow-lg bg-orange-500 text-white",
     stats: [
       { label: "Itens em Estoque", value: "156" },
       { label: "Valor Total", value: "R$ 89.5k" },
