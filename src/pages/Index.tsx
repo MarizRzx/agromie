@@ -22,7 +22,7 @@ const Index = () => {
             <div 
               className="relative rounded-2xl p-8 text-white shadow-success overflow-hidden"
               style={{
-                backgroundImage: `linear-gradient(135deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0.5) 100%), url(${farmHero})`,
+                backgroundImage: `linear-gradient(135deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.15) 50%, rgba(0, 0, 0, 0.3) 100%), url(${farmHero})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 backgroundBlendMode: 'normal'

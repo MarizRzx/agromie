@@ -59,8 +59,8 @@ export function AppSidebar() {
         <div className="p-6 border-b border-border">
           {!isCollapsed ? (
             <div className="flex items-center gap-4">
-              <div className="w-14 h-14 bg-gradient-primary rounded-xl flex items-center justify-center shadow-lg">
-                <Wheat className="h-8 w-8 text-primary-foreground" />
+              <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center shadow-lg">
+                <Wheat className="h-8 w-8 text-white" />
               </div>
               <div>
                 <h2 className="font-bold text-2xl text-foreground">AgrOmie</h2>
@@ -68,8 +68,8 @@ export function AppSidebar() {
               </div>
             </div>
           ) : (
-            <div className="w-14 h-14 bg-gradient-primary rounded-xl flex items-center justify-center mx-auto">
-              <Wheat className="h-8 w-8 text-primary-foreground" />
+            <div className="w-14 h-14 bg-gradient-to-br from-orange-500 to-amber-600 rounded-xl flex items-center justify-center mx-auto">
+              <Wheat className="h-8 w-8 text-white" />
             </div>
           )}
         </div>
